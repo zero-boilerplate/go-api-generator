@@ -1,0 +1,15 @@
+GoPackageName: main
+Flags:
+  - myflag1
+  - awesome2
+Services:
+  - Mysql
+  - Redis
+  - Sendgrid
+  - GoogleCloudStorage
+Security:
+  - JWT
+Features:
+  Service:
+    Name: MyService123
+    HandleStop: true
